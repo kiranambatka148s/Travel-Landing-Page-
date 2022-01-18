@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Travel Landing Page</title>
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+            <img class="img" src="Picture_2_Travel.jpeg" alt="Picture of travel logo" height="50" width="60">
+            <h1 class="logo"><u>Travel</u></h1>
+            <div class="toggle"></div>
+        </header>
+        <video src="Video.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>NEVER STOP TO </h2>
+            <h3>EXPLORING THE WORLD</h3>
+            <p>Learning never exhausts the mind. For the things we have to learn before we can do them, we learn by
+                doing them. Learning is not attained by chance, it must be sought for with ardor and attended to with
+                diligence. The beautiful thing about learning is that nobody can take it away from you.
+            </p>
+            <a href="#">Explore</a>
+        </div>
+        <ul class="social">
+            <li><a href="#">
+                    <img src="fb_icon_325x325.png" height="40" width="40">
+                </a></li>
+            <li><a href="#">
+                    <img src="Twitter logo.png" height="40" width="40">
+                </a></li>
+            <li><a href="https://www.instagram.com/kiran_ambatkar_77/">
+                    <img src="Instagram_logo_2016.svg.png" height="40" width="40">
+                </a></li>
+        </ul>
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <h4 class="copyright">Copyright &copy; 2022. All rights Reserved Kiran_Sanjay_Ambatkar Travel to Explore.</h4>
+</body>
+<script>
+    const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase');
+
+    menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+    })
+</script>
+
+</html>
